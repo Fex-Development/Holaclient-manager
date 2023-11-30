@@ -5,7 +5,7 @@ const config = require('../config.json');
 module.exports = {
   data: {
     name: 'setpackage',
-    description: 'Set package for a user',
+    description: 'Set package for an user',
     options: [
       {
         name: 'user',
