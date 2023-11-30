@@ -8,14 +8,20 @@ cd Holaclient-manager
 ```
 
 ### Step 2: Installing Packages
-```npm install```
+```bash
+npm install
+```
 
 ### Step 3: Configuration:
 Open config.json in your preferred text editor or use the following command:
-```nano config.json```
+```bash
+nano config.json
+```
 
 ### Step 4: Running:
-```node .```
+```bash
+node .
+```
 
 **Congratulations!** Your Holaclient Manager is ready to go. 
 
