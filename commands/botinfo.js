@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#3498db')
-      .setTitle('Heliactyl Manager Bot Info')
+      .setTitle('HolaClient Manager Bot Info')
       .setImage('https://media.discordapp.net/attachments/838372326071861334/1179664003329437696/104668118.png')
       const fields = [
       {
@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         name: 'Bot Name',
-        value: 'Heliactyl Manager',
+        value: 'HolaClient Manager',
         inline: true,
       },
       {
