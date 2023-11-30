@@ -5,7 +5,7 @@ const config = require('../config.json');
 module.exports = {
   data: {
     name: 'addcoins',
-    description: 'Add coins to a user',
+    description: 'Add coins to an user',
     options: [
       {
         name: 'id',
