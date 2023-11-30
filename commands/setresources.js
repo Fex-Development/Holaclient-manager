@@ -68,6 +68,10 @@ module.exports = {
     const databases = interaction.options.getString('databases');
 
     try {
+      const member = interaction.guild.members.cache.get(interaction.user.id);
+      if (!member.roles.cache.has(config.role_id)) {
+        return interaction.reply('You do not have the required role to use this command.');
+      }
       const response = await fetch(`${config.url}/api/resources/set`, {
         method: 'POST',
         headers: {
