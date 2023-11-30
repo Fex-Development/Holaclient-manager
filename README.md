@@ -23,7 +23,7 @@ nano config.json
 node .
 ```
 
-**Congratulations!** Your Holaclient Manager is ready to go. 
+**Congratulations!** Your HolaClient Manager is ready to go. 
 
 ### Contributing
 If you want to contribute to this project, feel free to fork and submit a pull request. I would appreciate your help a lot!
