@@ -80,7 +80,7 @@ module.exports = {
           { name: 'Allocations', value: data.package.allocations.toString(), inline: true },
         );
         embed.setFooter({ text: 'Bot made by Fex Development and Demon142' });
-        interaction.reply({ embeds: [embed] });
+        interaction.reply({ embeds: [embed], ephemeral: true });
       } else {
         interaction.reply('Error fetching user info');
       }
