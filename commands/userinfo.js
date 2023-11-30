@@ -19,6 +19,10 @@ module.exports = {
     const userId = interaction.options.getInteger('id');
 
     try {
+      const member = interaction.guild.members.cache.get(interaction.user.id);
+      if (!member.roles.cache.has(config.role_id)) {
+        return interaction.reply('You do not have the required role to use this command.');
+      }
       const response = await fetch(`${config.url}/api/userinfo/${userId}`, {
         headers: {
           'Content-Type': 'application/json',
