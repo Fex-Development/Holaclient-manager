@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^2.7.0"
+  },
+  "name": "holaclient-manager",
+  "version": "1.0.0",
+  "description": "A discord bot to manage holaclient",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [
+    "holaclient"
+  ],
+  "author": "Demon",
+  "license": "MIT"
+}
