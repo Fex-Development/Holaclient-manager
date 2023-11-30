@@ -4,7 +4,8 @@
 
 ```bash
 git clone https://github.com/Fex-Development/Holaclient-manager
-cd Holaclient-manager```
+cd Holaclient-manager
+```
 
 ### Step 2: Installing Packages
 ```npm install```
