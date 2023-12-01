@@ -1,3 +1,9 @@
+### HolaClient manager
+A simple discord bot to manage holaclient from discord.
+
+### Support
+[Discord Server](https://discord.gg/tRH8Cy8Z)
+
 ## Installation
 
 ### Step 1: Cloning
