@@ -1,4 +1,5 @@
 ### HolaClient manager
+# Reached EOL
 A simple discord bot to manage holaclient from discord.
 
 ### Support
